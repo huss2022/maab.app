@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" id="html-root">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- العناوين والوصف الأساسي للسيو -->
+  <title id="meta-title">منظومة مآب للحلول الرقمية | إشراف حسين علي</title>
+  <meta name="description" id="meta-desc" content="البوابة الرسمية لمنظومة مآب: تطوير وإطلاق المنصات الرقمية والتطبيقات القرآنية الهادفة بأحدث التقنيات السحابية، بإشراف الاستشاري والمطور الرقمي حسين علي.">
+  <link rel="canonical" href="https://maab.app">
+
+  <!-- وسوم الروبوتات الصريحة لتوجيه زواحف جوجل -->
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+  <link rel="icon" type="image/png" href="https://quran.maab.app/icons/icon-512x512.png">
+
+  <!-- وسوم منصات التواصل والمشاركة (Open Graph) -->
+  <meta property="og:title" content="منظومة مآب للحلول الرقمية | Maab Digital Solutions">
+  <meta property="og:description" content="البوابة الرسمية لمنظومة مآب: تطوير وإطلاق المنصات الرقمية والتطبيقات القرآنية بأحدث التقنيات السحابية.">
+  <meta property="og:url" content="https://maab.app">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="منظومة مآب للحلول الرقمية">
+  <meta property="og:image" content="https://maab.app/icons/maab-gold.png">
+  <meta property="og:image:width" content="512">
+  <meta property="og:image:height" content="512">
+  <meta property="og:locale" content="ar_EG">
+  <meta property="og:locale:alternate" content="en_US">
+
+  <!-- وسوم تويتر (X / Twitter Cards) -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="منظومة مآب للحلول الرقمية | Maab Digital Solutions">
+  <meta name="twitter:description" content="البوابة الرسمية لمنظومة مآب وتطبيقاتها الرقمية والقرآنية.">
+  <meta name="twitter:image" content="https://quran.maab.app/icons/icon-512x512.png">
+
+  <!-- السكيما السيادية الرسمية المعترف بها في Google Knowledge Graph -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "@id": "https://maab.app/#organization",
+    "name": "منظومة مآب للحلول الرقمية",
+    "alternateName": "Maab Digital Solutions",
+    "url": "https://maab.app",
+    "logo": "https://quran.maab.app/icons/icon-512x512.png",
+    "founder": {
+      "@type": "Person",
+      "@id": "https://www.linkedin.com/in/hussain-ali-eg/#person",
+      "name": "حسين علي",
+      "alternateName": "Hussain Ali",
+      "jobTitle": "استشاري ومطور رقمي / Digital Consultant & Developer",
+      "url": "https://www.linkedin.com/in/hussain-ali-eg",
+      "sameAs": [
+        "https://www.linkedin.com/in/hussain-ali-eg"
+      ]
+    },
+    "sameAs": [
+      "https://www.linkedin.com/in/hussain-ali-eg"
+    ],
+    "owns": [
+      {
+        "@type": "WebApplication",
+        "@id": "https://quran.maab.app/#app",
+        "name": "تطبيق مآب للقرآن الكريم",
+        "alternateName": "Maab Quran App",
+        "url": "https://quran.maab.app",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "All",
+        "description": "منصة قرآنية رقمية شاملة للمصحف الشريف، التلاوات، التفاسير، ومتابعة الحفظ."
+      },
+      {
+        "@type": "WebApplication",
+        "@id": "https://zokhr.maab.app/#app",
+        "name": "منصة ذُخر",
+        "alternateName": "Zokhr Platform",
+        "url": "https://zokhr.maab.app",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "All",
+        "description": "منصة متطورة لإدارة وتتبع حلقات تحفيظ القرآن الكريم والتعليم الإلكتروني."
+      }
+    ]
+  }
+  </script>
+
+  <style>
+    :root {
+      --bg: #0f172a;
+      --card-bg: #1e293b;
+      --card-border: #334155;
+      --primary: #10b981;
+      --primary-light: #34d399;
+      --text: #f8fafc;
+      --muted: #94a3b8;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Tahoma, Arial, sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1.5rem 1.25rem;
+      line-height: 1.6;
+    }
+    header {
+      width: 100%;
+      max-width: 880px;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      margin-bottom: 2rem;
+    }
+    .lang-btn {
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid var(--card-border);
+      color: var(--primary-light);
+      padding: 0.4rem 1rem;
+      border-radius: 999px;
+      font-weight: 700;
+      font-size: 0.85rem;
+      cursor: pointer;
+      transition: all 0.25s ease;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .lang-btn:hover {
+      background: rgba(16, 185, 129, 0.15);
+      border-color: var(--primary);
+    }
+    .container { width: 100%; max-width: 880px; text-align: center; }
+    .badge {
+      display: inline-block;
+      padding: 0.35rem 1rem;
+      background: rgba(16, 185, 129, 0.1);
+      color: var(--primary-light);
+      border: 1px solid rgba(16, 185, 129, 0.25);
+      border-radius: 999px;
+      font-size: 0.825rem;
+      font-weight: 700;
+      margin-bottom: 1.5rem;
+    }
+    h1 {
+      font-size: clamp(2rem, 5vw, 3.25rem);
+      font-weight: 900;
+      letter-spacing: -0.02em;
+      margin-bottom: 1rem;
+      background: linear-gradient(135deg, #34d399 0%, #2dd4bf 50%, #38bdf8 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    p.lead {
+      color: var(--muted);
+      font-size: clamp(1rem, 2.5vw, 1.2rem);
+      max-width: 650px;
+      margin: 0 auto 3rem;
+    }
+    p.lead strong { color: var(--text); }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 1.75rem;
+      margin-bottom: 3.5rem;
+      text-align: inherit;
+    }
+    .card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 1.5rem;
+      padding: 1.75rem;
+      text-decoration: none;
+      color: inherit;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+      box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3);
+    }
+    .card:hover {
+      transform: translateY(-5px);
+      border-color: rgba(52, 211, 153, 0.5);
+      box-shadow: 0 20px 35px -10px rgba(16, 185, 129, 0.18);
+    }
+    .card-top {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      margin-bottom: 1.25rem;
+    }
+    .card-img {
+      width: 58px;
+      height: 58px;
+      border-radius: 1rem;
+      object-fit: contain;
+      background: #0f172a;
+      border: 1px solid var(--card-border);
+      padding: 6px;
+      flex-shrink: 0;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+    }
+    .card-meta {
+      display: flex;
+      flex-direction: column;
+      gap: 0.2rem;
+    }
+    .card-meta h2 {
+      font-size: 1.25rem;
+      font-weight: 800;
+      color: #fff;
+      line-height: 1.3;
+    }
+    .card-domain {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      font-size: 0.825rem;
+      color: var(--primary-light);
+      direction: ltr;
+      display: inline-block;
+      width: fit-content;
+    }
+    .card p {
+      font-size: 0.9rem;
+      color: var(--muted);
+      line-height: 1.7;
+      margin-bottom: 1.5rem;
+      flex-grow: 1;
+    }
+    .arrow {
+      font-size: 0.875rem;
+      font-weight: 700;
+      color: var(--primary-light);
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+      transition: gap 0.2s ease;
+    }
+    .card:hover .arrow {
+      gap: 0.75rem;
+    }
+    footer {
+      width: 100%;
+      max-width: 880px;
+      border-top: 1px solid var(--card-border);
+      padding-top: 1.5rem;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      gap: 1rem;
+      font-size: 0.85rem;
+      color: var(--muted);
+    }
+    footer a { color: var(--muted); text-decoration: none; transition: color 0.2s; }
+    footer a:hover { color: var(--primary-light); }
+  </style>
+</head>
+<body>
+
+  <header>
+    <button class="lang-btn" id="lang-toggle" onclick="toggleLanguage()">
+      🌐 <span id="lang-btn-text">English</span>
+    </button>
+  </header>
+
+  <main class="container">
+    <span class="badge" id="badge-text">المنظومة الرقمية الموحدة</span>
+    <h1 id="hero-title">مَآبْ لِلْحُلُولِ الرَّقْمِيَّةِ</h1>
+    <p class="lead" id="hero-lead">
+      تطوير المنصات والتطبيقات الرقمية والقرآنية الهادفة بأحدث التقنيات السحابية، بإشراف الاستشاري والمطور الرقمي <strong id="founder-name">حسين علي</strong>.
+    </p>
+
+    <div class="grid">
+      <!-- كارت تطبيق القرآن الكريم -->
+      <a href="https://quran.maab.app" class="card" target="_blank" rel="noopener">
+        <div>
+          <div class="card-top">
+            <img src="https://quran.maab.app/icons/icon-512x512.png" alt="شعار تطبيق مآب للقرآن الكريم" class="card-img" width="58" height="58">
+            <div class="card-meta">
+              <h2 id="quran-title">تطبيق مآب للقرآن الكريم</h2>
+              <span class="card-domain">quran.maab.app</span>
+            </div>
+          </div>
+          <p id="quran-desc">منصة قرآنية رقمية متكاملة تضم المصحف الشريف كاملاً مع تلاوات صوتية لأكثر من 250 قارئاً و10 تفاسير معتمدة، إلى جانب خدمات القراءة والاستماع، والحفظ والتكرار، واختبار التسميع، والبحث الفوري، والأذكار، ومواقيت الصلاة والأذان. كما ترتبط المنصة بنظام «ذُخر» لمتابعة حفظ القرآن وإدارة التعلم.</p>
+        </div>
+        <div class="arrow"><span id="quran-action">زيارة المنصة</span> <span>&larr;</span></div>
+      </a>
+
+      <!-- كارت منصة ذُخر -->
+      <a href="https://zokhr.maab.app" class="card" target="_blank" rel="noopener">
+        <div>
+          <div class="card-top">
+            <img src="https://quran.maab.app/icons/zokhr-icon.png" alt="شعار منصة ذُخر" class="card-img" width="58" height="58">
+            <div class="card-meta">
+              <h2 id="zokhr-title">منصة ذُخْـر</h2>
+              <span class="card-domain">zokhr.maab.app</span>
+            </div>
+          </div>
+          <p id="zokhr-desc">منصة متطورة لإدارة تحفيظ القرآن الكريم تم تصميمها وبناؤها من الفكرة حتى التنفيذ، لتجمع الطلاب والمعلمين وأولياء الأمور والمشرفين في نظام موحد. تدعم إدارة الحلقات، ومتابعة تقدم الحفظ، وتقارير الأداء، وتوزيع الصلاحيات، وإدارة الهيئات المتعددة، مع بنية برمجية صُممت للأمان والأداء العالي وقابلية التوسع.</p>
+        </div>
+        <div class="arrow"><span id="zokhr-action">استكشاف المنصة</span> <span>&larr;</span></div>
+      </a>
+    </div>
+  </main>
+
+  <footer>
+    <p id="footer-copy">© جميع الحقوق محفوظة لمنظومة مآب</p>
+    <div>
+      <a href="https://www.linkedin.com/in/hussain-ali-eg" target="_blank" rel="noopener noreferrer" id="footer-linkedin">LinkedIn: حسين علي</a>
+      <span style="margin: 0 0.5rem;">•</span>
+      <a href="mailto:maaab.academy@gmail.com" id="footer-contact">تواصل معنا</a>
+    </div>
+  </footer>
+
+  <script>
+    const content = {
+      ar: {
+        dir: 'rtl',
+        lang: 'ar',
+        badge: 'المنظومة الرقمية الموحدة',
+        title: 'مَآبْ لِلْحُلُولِ الرَّقْمِيَّةِ',
+        lead: 'تطوير المنصات والتطبيقات الرقمية والقرآنية الهادفة بأحدث التقنيات السحابية، بإشراف الاستشاري والمطور الرقمي <strong>حسين علي</strong>.',
+        quranTitle: 'تطبيق مآب للقرآن الكريم',
+        quranDesc: 'منصة قرآنية رقمية متكاملة تضم المصحف الشريف كاملاً مع تلاوات صوتية لأكثر من 250 قارئاً و10 تفاسير معتمدة، إلى جانب خدمات القراءة والاستماع، والحفظ والتكرار، واختبار التسميع، والبحث الفوري، والأذكار، ومواقيت الصلاة والأذان. كما ترتبط المنصة بنظام «ذُخر» لمتابعة حفظ القرآن وإدارة التعلم.',
+        quranAction: 'زيارة المنصة',
+        zokhrTitle: 'منصة ذُخْـر',
+        zokhrDesc: 'منصة متطورة لإدارة تحفيظ القرآن الكريم تم تصميمها وبناؤها من الفكرة حتى التنفيذ، لتجمع الطلاب والمعلمين وأولياء الأمور والمشرفين في نظام موحد. تدعم إدارة الحلقات، ومتابعة تقدم الحفظ، وتقارير الأداء، وتوزيع الصلاحيات، وإدارة الهيئات المتعددة، مع بنية برمجية صُممت للأمان والأداء العالي وقابلية التوسع.',
+        zokhrAction: 'استكشاف المنصة',
+        footerCopy: '© جميع الحقوق محفوظة لمنظومة مآب',
+        footerLinkedin: 'LinkedIn: حسين علي',
+        footerContact: 'تواصل معنا',
+        btnText: 'English'
+      },
+      en: {
+        dir: 'ltr',
+        lang: 'en',
+        badge: 'Unified Digital Ecosystem',
+        title: 'MAAB DIGITAL SOLUTIONS',
+        lead: 'Architecting and launching purposeful digital and Quranic platforms powered by cutting-edge cloud tech, supervised by Digital Consultant & Developer <strong>Hussain Ali</strong>.',
+        quranTitle: 'Maab Quran App',
+        quranDesc: 'A comprehensive digital Quranic platform featuring the complete Holy Quran, high-definition recitations from over 250 reciters, 10 authentic Tafsirs, verse memorization and repetition tools, recitation testing, instant search, Azkar, and accurate prayer times.',
+        quranAction: 'Launch Application',
+        zokhrTitle: 'Zokhr Platform',
+        zokhrDesc: 'An advanced learning management system dedicated to Quranic memorization circles. Empowers students, educators, parents, and administrators with automated workflows, real-time progress analytics, role management, and multi-organization scalability.',
+        zokhrAction: 'Explore Platform',
+        footerCopy: '© All rights reserved to Maab Ecosystem',
+        footerLinkedin: 'LinkedIn: Hussain Ali',
+        footerContact: 'Contact Us',
+        btnText: 'العربية'
+      }
+    };
+
+    let currentLang = 'ar';
+
+    function toggleLanguage() {
+      currentLang = currentLang === 'ar' ? 'en' : 'ar';
+      const c = content[currentLang];
+      
+      const root = document.getElementById('html-root');
+      root.setAttribute('lang', c.lang);
+      root.setAttribute('dir', c.dir);
+
+      document.getElementById('badge-text').innerText = c.badge;
+      document.getElementById('hero-title').innerText = c.title;
+      document.getElementById('hero-lead').innerHTML = c.lead;
+      
+      document.getElementById('quran-title').innerText = c.quranTitle;
+      document.getElementById('quran-desc').innerText = c.quranDesc;
+      document.getElementById('quran-action').innerText = c.quranAction;
+      
+      document.getElementById('zokhr-title').innerText = c.zokhrTitle;
+      document.getElementById('zokhr-desc').innerText = c.zokhrDesc;
+      document.getElementById('zokhr-action').innerText = c.zokhrAction;
+
+      document.getElementById('footer-copy').innerText = c.footerCopy;
+      document.getElementById('footer-linkedin').innerText = c.footerLinkedin;
+      document.getElementById('footer-contact').innerText = c.footerContact;
+      document.getElementById('lang-btn-text').innerText = c.btnText;
+    }
+  </script>
+</body>
+</html>
